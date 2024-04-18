@@ -1,1 +1,139 @@
 @charset "UTF-8";
+
+/* Gerais */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* Cabeçalho */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo img {
+    max-width: 70px;
+}
+
+.logo h1 {
+    margin-bottom: 0;
+    line-height: 30px;
+}
+
+.logo p {
+    margin-top: 0;
+    font-size: 0.8rem;
+    color: #2f86d6;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+}
+
+nav a:hover {
+    color: #2f86d6;
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f86d6;
+    padding: 60px 120px;
+}
+
+.conteudo-banner {
+    color: white;
+    max-width: 300px;
+}
+
+.conteudo-banner p{
+    font-size: 0.8rem;
+}
+
+.img-banner img{
+    max-height: 40vh;
+}
+
+/* Anuncio */
+
+.anuncio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #233032;
+}
+
+.conteudo-anuncio {
+    color: white;
+    max-width: 500px;
+}
+
+.conteudo-anuncio h2 {
+    font-size: 1.3rem;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+.conteudo-anuncio p {
+    margin-top: 0;
+    font-size: 0.8rem;
+}
+
+.bnt-link-tabela button {
+    padding: 9px;
+    text-align: center;
+    background-color: #2f86d6;
+    color: white;
+    border: 0;
+    border-radius: 30px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.bnt-link-tabela button:hover {
+    box-shadow: 1px 1px 8px #2f85d689;
+    transform: scale(1.05);
+}
+
+.bnt-link-tabela img {
+    margin-right: 5px;
+}
+
+/* informações */
+
+.card-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-flex .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-flex .card img {
+    max-height: 120px;
+}
