@@ -217,3 +217,30 @@ table td {
 .bnt-link-tabela-2 button{
     background-color: #233032;
 }
+
+/* contato */
+
+.logo-contato {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.conteudo-contato {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* rodapé */
+
+footer {
+    background-color: #f1f3f7;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
