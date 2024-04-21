@@ -1,0 +1,17 @@
+/* cabeçalho */
+
+header {
+    background-color: #2f86d6;
+}
+
+.conteudo-logo p{
+    color: white;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: black;
+}
